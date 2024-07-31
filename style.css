@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0; 
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    /*setting padding and margin 0 - starts clean all elements and you set it yourself*/
+}
+
+nav{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 16px 0px 16px;
+    background-color: #cafdff ;
+}
+
+.row{
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    background-color: #eadcff;
+    height: calc(100vh - 70px);
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subheader{
+    font-size: 24px;
+    margin: 16px 0 24px 0;
+}
+
+.header__image{
+    width: 450px;
+    height: 400px;
+}
+
+h1{
+    font-size: 72px;
+}
+
+button{
+    background-color: #05c7cf;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+a{
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.logo{
+    width: 300px;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+    padding-left: 16px;
+}
+
+#about{
+    padding: 48px 0;
+}
+
+h2{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.about__description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__image--wrapper{
+    width: 40%;
+}
+
+img{
+    width: 100%;
+}
